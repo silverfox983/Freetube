@@ -22,79 +22,82 @@
 18    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 18-->/Users/seth/AndroidStudioProjects/freetube/android/app/src/main/AndroidManifest.xml:9:5-80
 18-->/Users/seth/AndroidStudioProjects/freetube/android/app/src/main/AndroidManifest.xml:9:22-77
-19
-20    <application
-20-->/Users/seth/AndroidStudioProjects/freetube/android/app/src/main/AndroidManifest.xml:10:5-48:19
-21        android:name="io.flutter.app.FlutterApplication"
-21-->/Users/seth/AndroidStudioProjects/freetube/android/app/src/main/AndroidManifest.xml:11:9-57
-22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-22-->[androidx.core:core:1.1.0] /Users/seth/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/AndroidManifest.xml:24:18-86
-23        android:icon="@mipmap/ic_launcher"
-23-->/Users/seth/AndroidStudioProjects/freetube/android/app/src/main/AndroidManifest.xml:13:9-43
-24        android:label="freetube" >
-24-->/Users/seth/AndroidStudioProjects/freetube/android/app/src/main/AndroidManifest.xml:12:9-33
-25        <activity
-25-->/Users/seth/AndroidStudioProjects/freetube/android/app/src/main/AndroidManifest.xml:14:9-42:20
-26            android:name="sethfox.info.freetube.MainActivity"
-26-->/Users/seth/AndroidStudioProjects/freetube/android/app/src/main/AndroidManifest.xml:15:13-41
-27            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-27-->/Users/seth/AndroidStudioProjects/freetube/android/app/src/main/AndroidManifest.xml:18:13-163
-28            android:hardwareAccelerated="true"
-28-->/Users/seth/AndroidStudioProjects/freetube/android/app/src/main/AndroidManifest.xml:19:13-47
-29            android:launchMode="singleTop"
-29-->/Users/seth/AndroidStudioProjects/freetube/android/app/src/main/AndroidManifest.xml:16:13-43
-30            android:theme="@style/LaunchTheme"
-30-->/Users/seth/AndroidStudioProjects/freetube/android/app/src/main/AndroidManifest.xml:17:13-47
-31            android:windowSoftInputMode="adjustResize" >
-31-->/Users/seth/AndroidStudioProjects/freetube/android/app/src/main/AndroidManifest.xml:20:13-55
-32
-33            <!--
-34                 Specifies an Android theme to apply to this Activity as soon as
-35                 the Android process has started. This theme is visible to the user
-36                 while the Flutter UI initializes. After that, this theme continues
-37                 to determine the Window background behind the Flutter UI.
-38            -->
-39            <meta-data
-39-->/Users/seth/AndroidStudioProjects/freetube/android/app/src/main/AndroidManifest.xml:25:13-28:17
-40                android:name="io.flutter.embedding.android.NormalTheme"
-40-->/Users/seth/AndroidStudioProjects/freetube/android/app/src/main/AndroidManifest.xml:26:15-70
-41                android:resource="@style/NormalTheme" />
-41-->/Users/seth/AndroidStudioProjects/freetube/android/app/src/main/AndroidManifest.xml:27:15-52
-42            <!--
-43                 Displays an Android View that continues showing the launch screen
-44                 Drawable until Flutter paints its first frame, then this splash
-45                 screen fades out. A splash screen is useful to avoid any visual
-46                 gap between the end of Android's launch screen and the painting of
-47                 Flutter's first frame.
-48            -->
-49            <meta-data
-49-->/Users/seth/AndroidStudioProjects/freetube/android/app/src/main/AndroidManifest.xml:34:13-37:17
-50                android:name="io.flutter.embedding.android.SplashScreenDrawable"
-50-->/Users/seth/AndroidStudioProjects/freetube/android/app/src/main/AndroidManifest.xml:35:15-79
-51                android:resource="@drawable/launch_background" />
-51-->/Users/seth/AndroidStudioProjects/freetube/android/app/src/main/AndroidManifest.xml:36:15-61
-52
-53            <intent-filter>
-53-->/Users/seth/AndroidStudioProjects/freetube/android/app/src/main/AndroidManifest.xml:38:13-41:29
-54                <action android:name="android.intent.action.MAIN" />
-54-->/Users/seth/AndroidStudioProjects/freetube/android/app/src/main/AndroidManifest.xml:39:17-68
-54-->/Users/seth/AndroidStudioProjects/freetube/android/app/src/main/AndroidManifest.xml:39:25-66
-55
-56                <category android:name="android.intent.category.LAUNCHER" />
-56-->/Users/seth/AndroidStudioProjects/freetube/android/app/src/main/AndroidManifest.xml:40:17-76
-56-->/Users/seth/AndroidStudioProjects/freetube/android/app/src/main/AndroidManifest.xml:40:27-74
-57            </intent-filter>
-58        </activity>
-59        <!--
-60             Don't delete the meta-data below.
-61             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
-62        -->
-63        <meta-data
-63-->/Users/seth/AndroidStudioProjects/freetube/android/app/src/main/AndroidManifest.xml:45:9-47:33
-64            android:name="flutterEmbedding"
-64-->/Users/seth/AndroidStudioProjects/freetube/android/app/src/main/AndroidManifest.xml:46:13-44
-65            android:value="2" />
-65-->/Users/seth/AndroidStudioProjects/freetube/android/app/src/main/AndroidManifest.xml:47:13-30
-66    </application>
-67
-68</manifest>
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->/Users/seth/AndroidStudioProjects/freetube/android/app/src/main/AndroidManifest.xml:10:5-67
+19-->/Users/seth/AndroidStudioProjects/freetube/android/app/src/main/AndroidManifest.xml:10:22-64
+20
+21    <application
+21-->/Users/seth/AndroidStudioProjects/freetube/android/app/src/main/AndroidManifest.xml:11:5-49:19
+22        android:name="io.flutter.app.FlutterApplication"
+22-->/Users/seth/AndroidStudioProjects/freetube/android/app/src/main/AndroidManifest.xml:12:9-57
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.1.0] /Users/seth/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/AndroidManifest.xml:24:18-86
+24        android:icon="@mipmap/ic_launcher"
+24-->/Users/seth/AndroidStudioProjects/freetube/android/app/src/main/AndroidManifest.xml:14:9-43
+25        android:label="freetube" >
+25-->/Users/seth/AndroidStudioProjects/freetube/android/app/src/main/AndroidManifest.xml:13:9-33
+26        <activity
+26-->/Users/seth/AndroidStudioProjects/freetube/android/app/src/main/AndroidManifest.xml:15:9-43:20
+27            android:name="sethfox.info.freetube.MainActivity"
+27-->/Users/seth/AndroidStudioProjects/freetube/android/app/src/main/AndroidManifest.xml:16:13-41
+28            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+28-->/Users/seth/AndroidStudioProjects/freetube/android/app/src/main/AndroidManifest.xml:19:13-163
+29            android:hardwareAccelerated="true"
+29-->/Users/seth/AndroidStudioProjects/freetube/android/app/src/main/AndroidManifest.xml:20:13-47
+30            android:launchMode="singleTop"
+30-->/Users/seth/AndroidStudioProjects/freetube/android/app/src/main/AndroidManifest.xml:17:13-43
+31            android:theme="@style/LaunchTheme"
+31-->/Users/seth/AndroidStudioProjects/freetube/android/app/src/main/AndroidManifest.xml:18:13-47
+32            android:windowSoftInputMode="adjustResize" >
+32-->/Users/seth/AndroidStudioProjects/freetube/android/app/src/main/AndroidManifest.xml:21:13-55
+33
+34            <!--
+35                 Specifies an Android theme to apply to this Activity as soon as
+36                 the Android process has started. This theme is visible to the user
+37                 while the Flutter UI initializes. After that, this theme continues
+38                 to determine the Window background behind the Flutter UI.
+39            -->
+40            <meta-data
+40-->/Users/seth/AndroidStudioProjects/freetube/android/app/src/main/AndroidManifest.xml:26:13-29:17
+41                android:name="io.flutter.embedding.android.NormalTheme"
+41-->/Users/seth/AndroidStudioProjects/freetube/android/app/src/main/AndroidManifest.xml:27:15-70
+42                android:resource="@style/NormalTheme" />
+42-->/Users/seth/AndroidStudioProjects/freetube/android/app/src/main/AndroidManifest.xml:28:15-52
+43            <!--
+44                 Displays an Android View that continues showing the launch screen
+45                 Drawable until Flutter paints its first frame, then this splash
+46                 screen fades out. A splash screen is useful to avoid any visual
+47                 gap between the end of Android's launch screen and the painting of
+48                 Flutter's first frame.
+49            -->
+50            <meta-data
+50-->/Users/seth/AndroidStudioProjects/freetube/android/app/src/main/AndroidManifest.xml:35:13-38:17
+51                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+51-->/Users/seth/AndroidStudioProjects/freetube/android/app/src/main/AndroidManifest.xml:36:15-79
+52                android:resource="@drawable/launch_background" />
+52-->/Users/seth/AndroidStudioProjects/freetube/android/app/src/main/AndroidManifest.xml:37:15-61
+53
+54            <intent-filter>
+54-->/Users/seth/AndroidStudioProjects/freetube/android/app/src/main/AndroidManifest.xml:39:13-42:29
+55                <action android:name="android.intent.action.MAIN" />
+55-->/Users/seth/AndroidStudioProjects/freetube/android/app/src/main/AndroidManifest.xml:40:17-68
+55-->/Users/seth/AndroidStudioProjects/freetube/android/app/src/main/AndroidManifest.xml:40:25-66
+56
+57                <category android:name="android.intent.category.LAUNCHER" />
+57-->/Users/seth/AndroidStudioProjects/freetube/android/app/src/main/AndroidManifest.xml:41:17-76
+57-->/Users/seth/AndroidStudioProjects/freetube/android/app/src/main/AndroidManifest.xml:41:27-74
+58            </intent-filter>
+59        </activity>
+60        <!--
+61             Don't delete the meta-data below.
+62             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+63        -->
+64        <meta-data
+64-->/Users/seth/AndroidStudioProjects/freetube/android/app/src/main/AndroidManifest.xml:46:9-48:33
+65            android:name="flutterEmbedding"
+65-->/Users/seth/AndroidStudioProjects/freetube/android/app/src/main/AndroidManifest.xml:47:13-44
+66            android:value="2" />
+66-->/Users/seth/AndroidStudioProjects/freetube/android/app/src/main/AndroidManifest.xml:48:13-30
+67    </application>
+68
+69</manifest>

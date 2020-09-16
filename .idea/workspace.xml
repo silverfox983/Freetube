@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="518e617f-11f5-4db6-94e1-6c1524b3adb0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/f872507f30e2ff2523f0f1d19160266e.cache.dill.track.dill" beforeDir="false" afterPath="$PROJECT_DIR$/build/f872507f30e2ff2523f0f1d19160266e.cache.dill.track.dill" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_2_API_R" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="FA76T0301883" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -54,33 +57,33 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1358" height="196" key="GridCell.Tab.0.bottom" timestamp="1600224743861">
+    <state width="1358" height="196" key="GridCell.Tab.0.bottom" timestamp="1600233078540">
       <screen x="0" y="23" width="1440" height="814" />
     </state>
-    <state width="1358" height="196" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1600224743861" />
+    <state width="1358" height="196" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1600233078540" />
     <state width="1358" height="196" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1600223797518" />
-    <state width="1358" height="196" key="GridCell.Tab.0.center" timestamp="1600224743860">
+    <state width="1358" height="196" key="GridCell.Tab.0.center" timestamp="1600233078539">
       <screen x="0" y="23" width="1440" height="814" />
     </state>
-    <state width="1358" height="196" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1600224743860" />
+    <state width="1358" height="196" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1600233078539" />
     <state width="1358" height="196" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1600223797516" />
-    <state width="1358" height="196" key="GridCell.Tab.0.left" timestamp="1600224743860">
+    <state width="1358" height="196" key="GridCell.Tab.0.left" timestamp="1600233078539">
       <screen x="0" y="23" width="1440" height="814" />
     </state>
-    <state width="1358" height="196" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1600224743860" />
+    <state width="1358" height="196" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1600233078539" />
     <state width="1358" height="196" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1600223797516" />
-    <state width="1358" height="196" key="GridCell.Tab.0.right" timestamp="1600224743860">
+    <state width="1358" height="196" key="GridCell.Tab.0.right" timestamp="1600233078540">
       <screen x="0" y="23" width="1440" height="814" />
     </state>
-    <state width="1358" height="196" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1600224743860" />
+    <state width="1358" height="196" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1600233078540" />
     <state width="1358" height="196" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1600223797517" />
     <state x="217" y="49" key="SettingsEditor" timestamp="1600226425160">
       <screen x="0" y="23" width="1440" height="814" />
     </state>
     <state x="217" y="49" key="SettingsEditor/0.23.1440.814@0.23.1440.814" timestamp="1600226425160" />
-    <state x="369" y="262" key="com.intellij.ide.util.TipDialog" timestamp="1600226854414">
+    <state x="369" y="262" key="com.intellij.ide.util.TipDialog" timestamp="1600232815206">
       <screen x="0" y="23" width="1440" height="814" />
     </state>
-    <state x="369" y="262" key="com.intellij.ide.util.TipDialog/0.23.1440.814@0.23.1440.814" timestamp="1600226854414" />
+    <state x="369" y="262" key="com.intellij.ide.util.TipDialog/0.23.1440.814@0.23.1440.814" timestamp="1600232815206" />
   </component>
 </project>
