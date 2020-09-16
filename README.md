@@ -1,16 +1,13 @@
 # freetube
 
-A new Flutter application that downloads video or audio from youtube
+A new Flutter application that downloads video or audio from youtube most of the credit goes to 
+https://github.com/Hexer10/youtube_explode_dart
+where they did most of the heavy lifting i just wrote a front end basically.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+[Download](https://github.com/silverfox983/Freetube/blob/master/build/app/outputs/apk/release/app-release.apk)
 
-A few resources to get you started if this is your first Flutter project:
+you will need android 7.0 or greater
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![](picture.png)
